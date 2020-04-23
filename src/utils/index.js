@@ -139,6 +139,7 @@ async function getNearLocation(dispatch, coords) {
 			if (coords !== 'Blocked') {
 				let dist = null;
 				let tempLocal = null;
+				// eslint-disable-next-line 
 				data.data.map((local) => {
 					let temp = calcCrow(
 						local.latitude,
