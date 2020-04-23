@@ -71,8 +71,8 @@ export default function Main(props) {
 		(regions, search) => {
 			let temp = [];
 			if (regions) {
+				// eslint-disable-next-line
 				regions.filter(function (el) {
-					// eslint-disable-next-line
 					if (el.local.toLowerCase().includes(search.toLowerCase())) {
 						temp.push(el);
 					}
