@@ -82,6 +82,7 @@ const CustomSlider = withStyles({
 	},
 })(Slider);
 
+// eslint-disable-next-line 
 Date.prototype.addDays = function (days) {
 	var date = new Date(this.valueOf());
 	date.setDate(date.getDate() + days);
