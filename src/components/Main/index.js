@@ -23,14 +23,13 @@ import {
 	faTemperatureLow,
 	faCloudRain,
 	faCalendarAlt,
-	faFileContract,
 	faInfoCircle,
 } from '@fortawesome/free-solid-svg-icons';
 import { createSelector } from 'reselect';
 import { useDispatch } from 'react-redux';
 
 import { CustomSlider, marks, getNearLocation, getCities } from '../../utils';
-import { withStyles, makeStyles } from '@material-ui/core/styles';
+import { withStyles } from '@material-ui/core/styles';
 
 import logo from '../../images/logo.svg';
 
@@ -73,6 +72,7 @@ export default function Main(props) {
 			let temp = [];
 			if (regions) {
 				regions.filter(function (el) {
+					// eslint-disable-next-line
 					if (el.local.toLowerCase().includes(search.toLowerCase())) {
 						temp.push(el);
 					}
@@ -104,16 +104,16 @@ export default function Main(props) {
 	}, []);
 
 	useEffect(() => {
-		if (coords) {
+		if (coords && dispatch) {
 			getNearLocation(dispatch, coords);
 		}
-	}, [coords]);
+	}, [coords, dispatch]);
 
 	useEffect(() => {
-		if (nearLocation) {
+		if (nearLocation && dispatch) {
 			getCities(dispatch, nearLocation);
 		}
-	}, [nearLocation]);
+	}, [nearLocation, dispatch]);
 
 	const regions = useSelector((state) => selectRegions(state, search));
 
@@ -128,7 +128,7 @@ export default function Main(props) {
 						}}
 					>
 						<Row className={'ai-c jc-c m-0 p-0'}>
-							<img src={logo} width='250'></img>
+							<img src={logo} width='250' alt='logo'></img>
 						</Row>
 						<Row className={'ai-fe jc-fe m-0 p-0'}>
 							<HtmlTooltip
