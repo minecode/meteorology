@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "ea4618c189c5dbe30845689c6c45cc29",
+    "revision": "197a641d14b039262e9d973f8c4842b4",
     "url": "/meteorology/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/meteorology/static/css/2.55b6c765.chunk.css"
   },
   {
-    "revision": "7568a3ecbc77fec74c9f",
+    "revision": "2433a1d271d29a2342b9",
     "url": "/meteorology/static/css/main.067709f7.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/meteorology/static/js/2.18f42e36.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "7568a3ecbc77fec74c9f",
-    "url": "/meteorology/static/js/main.f8d4ebb6.chunk.js"
+    "revision": "2433a1d271d29a2342b9",
+    "url": "/meteorology/static/js/main.f3dabd81.chunk.js"
   },
   {
     "revision": "21248c11a32c8ec01f1f",
