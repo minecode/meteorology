@@ -9,7 +9,7 @@ function App() {
 	return (
 		<Provider store={store}>
 			<Router>
-				<Route exact path='/' component={Main} />
+				<Route exact path='/meteorology' component={Main} />
 			</Router>
 		</Provider>
 	);

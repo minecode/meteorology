@@ -173,7 +173,7 @@ async function getNearLocation(dispatch, coords) {
 
 async function getCities(dispatch, nearLocation) {
 	await get(
-		`http://api.ipma.pt/open-data/forecast/meteorology/cities/daily/${nearLocation.globalIdLocal}.json`,
+		`https://api.ipma.pt/open-data/forecast/meteorology/cities/daily/${nearLocation.globalIdLocal}.json`,
 		{}
 	)
 		.then((data) => {
@@ -203,7 +203,7 @@ async function getLocationInfo(
 	updateForecast = false
 ) {
 	await get(
-		`http://api.ipma.pt/open-data/forecast/meteorology/cities/daily/${locationCodes[pointedLocation]}.json`,
+		`https://api.ipma.pt/open-data/forecast/meteorology/cities/daily/${locationCodes[pointedLocation]}.json`,
 		{}
 	)
 		.then((data) => {
@@ -266,7 +266,7 @@ async function storeData(index, setTempMax, setTempMin, setProbabPrecipit) {
 	const tempObjectMax = {};
 	await asyncForEach(Object.keys(locationCodes), async function (city) {
 		const temp = await get(
-			`http://api.ipma.pt/open-data/forecast/meteorology/cities/daily/${locationCodes[city]}.json`,
+			`https://api.ipma.pt/open-data/forecast/meteorology/cities/daily/${locationCodes[city]}.json`,
 			{}
 		)
 			.then((data) => {

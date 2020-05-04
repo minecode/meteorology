@@ -8,7 +8,7 @@ export default function Region(props) {
 
 	function callForecast() {
 		get(
-			`http://api.ipma.pt/open-data/forecast/meteorology/cities/daily/${props.region.globalIdLocal}.json`,
+			`https://api.ipma.pt/open-data/forecast/meteorology/cities/daily/${props.region.globalIdLocal}.json`,
 			{}
 		)
 			.then((data) => {

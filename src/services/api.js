@@ -1,7 +1,7 @@
 import { create } from 'apisauce';
 
 const api = create({
-	baseURL: 'http://api.ipma.pt/open-data/',
+	baseURL: 'https://api.ipma.pt/open-data/',
 });
 
 api.addAsyncResponseTransform(async (response) => {
