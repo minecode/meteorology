@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/meteorology/static/css/main.067709f7.chunk.css",
-    "main.js": "/meteorology/static/js/main.2f5006da.chunk.js",
-    "main.js.map": "/meteorology/static/js/main.2f5006da.chunk.js.map",
+    "main.js": "/meteorology/static/js/main.53fc9bb4.chunk.js",
+    "main.js.map": "/meteorology/static/js/main.53fc9bb4.chunk.js.map",
     "runtime-main.js": "/meteorology/static/js/runtime-main.f94387be.js",
     "runtime-main.js.map": "/meteorology/static/js/runtime-main.f94387be.js.map",
     "static/css/2.55b6c765.chunk.css": "/meteorology/static/css/2.55b6c765.chunk.css",
     "static/js/2.18f42e36.chunk.js": "/meteorology/static/js/2.18f42e36.chunk.js",
     "static/js/2.18f42e36.chunk.js.map": "/meteorology/static/js/2.18f42e36.chunk.js.map",
     "index.html": "/meteorology/index.html",
-    "precache-manifest.f59ffaa74952750f2d3a49ce51846a1d.js": "/meteorology/precache-manifest.f59ffaa74952750f2d3a49ce51846a1d.js",
+    "precache-manifest.615fc7b57c8794a83164094f946a6020.js": "/meteorology/precache-manifest.615fc7b57c8794a83164094f946a6020.js",
     "service-worker.js": "/meteorology/service-worker.js",
     "static/css/2.55b6c765.chunk.css.map": "/meteorology/static/css/2.55b6c765.chunk.css.map",
     "static/css/main.067709f7.chunk.css.map": "/meteorology/static/css/main.067709f7.chunk.css.map",
@@ -22,6 +22,6 @@
     "static/css/2.55b6c765.chunk.css",
     "static/js/2.18f42e36.chunk.js",
     "static/css/main.067709f7.chunk.css",
-    "static/js/main.2f5006da.chunk.js"
+    "static/js/main.53fc9bb4.chunk.js"
   ]
 }
